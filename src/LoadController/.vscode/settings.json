@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/oscar/.platformio/penv/bin:/home/oscar/.platformio/penv:/home/oscar/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/oscar/Android/Sdk/platform-tools:/home/oscar/.platformio/penv/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
