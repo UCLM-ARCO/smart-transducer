@@ -6,7 +6,7 @@
 #include <IceC/platforms/esp8266/TCPEndpoint.h>
 #include <IceC/platforms/esp8266/debug.hpp>
 
-#include <lifelike.h>
+#include "lifelike.h"
 
 Ice_Communicator ic;
 Ice_ObjectAdapter adapter;
@@ -18,13 +18,15 @@ void IoT_IDMAdminI_setIDMAddress(IoT_IDMAdminPtr self, Ice_String address)
   char value[address.size + 1];
   strncpy(value, address.value, address.size);
   value[address.size] = 0;
-  Serial.println( value);
+  Serial.println(value);
 }
 
 void setup()
 {
   Serial.begin(115200);
   delay(2000);
+  pinMode(STATUS_LED, OUTPUT);
+  pinMode(PIN_BUTTON, INPUT);
   Serial.println("\n------Booting------\n");
 
   // setup WiFi, Ice, Endpoints...
