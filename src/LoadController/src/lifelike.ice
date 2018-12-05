@@ -8,6 +8,7 @@ module LifeLike {
         IoT::NodeAdmin,
         IoT::IDMAdmin,
         IoT::WiFiAdmin,
-        st::IBool {
+        st::IBool,
+        st::Linkable {
     };
 };
