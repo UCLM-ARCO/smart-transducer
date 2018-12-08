@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-st",
+  "version": "0.0.1",
+  "description": "Node-RED nodes to control objects using ST interfaces for LifeLike (TM)",
+  "node-red": {
+    "nodes": {
+        "iBool out": "st-ibool-out.js",
+        "ice-communicator": "ice-communicator-config.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/DavidVilla/lifelike.git"
+  },
+  "keywords": [
+    "zeroc-ice",
+    "st"
+  ],
+  "author": "Oscar Aceña",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/DavidVilla/lifelike#readme"
+}

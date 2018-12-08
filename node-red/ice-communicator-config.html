@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    RED.nodes.registerType('ice-communicator', {
+        category: 'config',
+        defaults: {
+            name: {value: "default"},
+        },
+        label: function() {
+            return this.name || "Ice Communicator";
+        },
+    });
+</script>
+
+<script type="text/x-red" data-template-name="ice-communicator">
+ <div class="form-row">
+   <label for="node-config-input-name"><i class="fa fa-fw fa-tag"></i> Name:</label>
+   <input type="text" id="node-config-input-name">
+ </div>
+</script>
+
+<script type="text/x-red" data-help-name="ice-communicator">
+  <h3><b>Overview</b></h3>
+
+  <p>This is the main broker used to manage the communications. Its a
+    complex object, but, fortunately, most of the time, you won't need te
+    set it up. Just create it and let it do its job. Create <b>just one</b>,
+    and use it everywhere.</p>
+
+  <h3><b>Properties</b></h3>
+  <ul><li><b>Name</b>: the communicator's name. </li></ul>
+</script>
+

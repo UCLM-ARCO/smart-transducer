@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    RED.nodes.registerType('ibool-set',{
+        category: 'st',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value: ""},
+            proxy: {value: "", required: true},
+            ic: {value: "", required: true, type: "ice-communicator"},
+        },
+        inputs:1,
+        outputs:0,
+        icon: "button.png",
+        label: function() {
+            return this.name || "st-ibool-out";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="ibool-set">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-proxy"><i class="icon-tag"></i> Proxy</label>
+        <input type="text" id="node-input-proxy" placeholder="ObjId -t:tcp -h 1.2.3.4 -p 2345">
+    </div>
+    <div class="form-row">
+        <label for="node-input-ic"><i class="fa fa-fw fa-gears"></i> Ice Comm.: </label>
+        <input type="text" id="node-input-ic">
+      </div>
+</script>
+
+<script type="text/x-red" data-help-name="ibool-set">
+    <p>Set value to st::iBool interface</p>
+</script>
