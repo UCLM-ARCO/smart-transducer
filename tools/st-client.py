@@ -1,11 +1,16 @@
 #!/usr/bin/python3 -u
 # -*- mode: python; coding: utf-8 -*-
 
+import os
 import sys
 import argparse
 import Ice
 
-Ice.loadSlice("../slice/st.ice")
+SLICE = "../slice/st.ice"
+if not os.path.exists(SLICE):
+    SLICE = "/usr/share/slice/st/st.ice"
+
+Ice.loadSlice(SLICE)
 import st  # noqa
 
 
