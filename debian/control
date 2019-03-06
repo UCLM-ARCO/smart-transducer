@@ -1,11 +1,11 @@
-Source: lifelike
+Source: smart-transducer
 Section: utils
 Priority: optional
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), python3
 Standards-Version: 4.1.1
 
-Package: lifelike
+Package: smart-transducer
 Architecture: all
 Depends: ${misc:Depends}, python3, python3-zeroc-ice
 Description: Smart home and automatization made easy
