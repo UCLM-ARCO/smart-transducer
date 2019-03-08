@@ -1,2 +1,4 @@
 .vscode
 src/LoadController/src/st.h
+piolib/*.zip
+piolib/src

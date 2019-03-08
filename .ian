@@ -1,0 +1,9 @@
+# -*- coding: utf-8; mode: shell-script; tab-width: 4 -*-
+
+function ian-release-hook() {
+    local version=$(upstream-version)
+    log-info "setting version to $version"
+    echo "$version" > .version
+
+    sed -i 's/"version": ".*"/"version": "'$version'"/g' piolib/library.json
+}

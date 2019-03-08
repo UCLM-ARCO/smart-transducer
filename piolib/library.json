@@ -1,0 +1,24 @@
+{
+    "name": "st",
+    "keywords": "icec, zeroc-ice, middleware, iot, sensor, actuator, network, smart-transducer",
+    "description": "Minimal slice interfaces to handle sensors and actuators.",
+    "authors": [
+        {
+            "name": "David Villa",
+            "email": "david.villa@uclm.es",
+            "maintainer": true
+        },
+        {
+            "name": "Oscar Acena",
+            "email": "oscar.acena@uclm.es"
+        },
+        {
+            "name": "Arco Research Group (UCLM)",
+            "url": "https://arcogroup.bitbucket.io/icec/"
+        }
+    ],
+    "version": "0.20190308",
+    "downloadUrl": "https://bitbucket.org/arco_group/smart-transducer/downloads/st-latest.zip",
+    "frameworks": "*",
+    "platforms": "atmelavr,espressif8266"
+}

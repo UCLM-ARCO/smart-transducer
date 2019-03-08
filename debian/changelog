@@ -1,3 +1,9 @@
+smart-transducer (0.20190308-1) unstable; urgency=low
+
+  * New release
+
+ -- Oscar Aceña Herrera <oscaracena@gmail.com>  Fri, 08 Mar 2019 10:33:28 +0100
+
 smart-transducer (0.20190307-1) unstable; urgency=low
 
   * New release, update tools
