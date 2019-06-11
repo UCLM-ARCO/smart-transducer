@@ -2,8 +2,9 @@ Source: smart-transducer
 Section: utils
 Priority: optional
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), python3
-Standards-Version: 4.1.1
+Uploaders: David Villa Alises <David.Villa@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), python3, dh-python
+Standards-Version: 4.3.0
 
 Package: smart-transducer
 Architecture: all
