@@ -17,7 +17,7 @@
             "url": "https://arcogroup.bitbucket.io/icec/"
         }
     ],
-    "version": "0.20190308",
+    "version": "0.20200217",
     "downloadUrl": "https://bitbucket.org/arco_group/smart-transducer/downloads/st-latest.zip",
     "frameworks": "*",
     "platforms": "atmelavr,espressif8266"

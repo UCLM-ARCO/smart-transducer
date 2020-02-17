@@ -1,3 +1,9 @@
+smart-transducer (0.20200217-1) unstable; urgency=low
+
+  * New release, add st-link-to tool and stlib python library
+
+ -- Oscar Aceña Herrera <oscaracena@gmail.com>  Mon, 17 Feb 2020 11:05:04 +0100
+
 smart-transducer (0.20190308-1) unstable; urgency=low
 
   * New release

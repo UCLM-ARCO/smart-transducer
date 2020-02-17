@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Uploaders: David Villa Alises <David.Villa@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), python3, dh-python
-Standards-Version: 4.3.0
+Standards-Version: 4.4.0
 
 Package: smart-transducer
 Architecture: all

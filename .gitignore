@@ -2,3 +2,4 @@
 src/LoadController/src/st.h
 piolib/*.zip
 piolib/src
+__pycache__
